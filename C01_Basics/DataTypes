@@ -1,0 +1,49 @@
+"use strict";
+/* Helps catch common coding mistakes and prevents "unsafe" code,
+  making your JavaScript more robust and preventing potential bugs. */
+
+// Data Types in JavaScript
+
+// 1. Primitive Data Types
+
+// a. String
+const name = "Alice";
+console.log(name); // Output: Alice
+
+// b. Number
+const age = 25;
+console.log(age); // Output: 25    
+
+// c. Boolean
+const isStudent = true;
+console.log(isStudent); // Output: true
+
+// d. Null
+const emptyValue = null;
+console.log(emptyValue); // Output: null
+
+// e. Undefined
+let undefinedValue;
+console.log(undefinedValue); // Output: undefined
+
+// f. Symbol (ES6)
+const uniqueId = Symbol("id");
+console.log(uniqueId); // Output: Symbol(id)
+
+// 2. Non-Primitive Data Types                  
+// a. Object            
+const person = {                    
+    name: "Bob",            
+    age: 30,            
+    isStudent: false            
+};                        
+  console.log(person); // Output: { name: 'Bob', age: 30, isStudent: false }
+
+// b. Array
+const numbers = [1, 2, 3, 4, 5];
+console.log(numbers); // Output: [1, 2, 3, 4, 5]
+
+// c. Function
+function greet() {
+    return "Hello!";
+}                           
